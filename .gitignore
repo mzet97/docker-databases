@@ -1,0 +1,57 @@
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+
+# Docker volumes and data
+**/mysql_data/
+**/postgres_data/
+**/mongo_data/
+**/redis_data/
+**/data/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker override files
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Backup files
+*.bak
+*.backup
+*.sql.gz
+*.dump
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+.tmp/
+
+# Node modules (if any Node.js tools are added later)
+node_modules/
+npm-debug.log
